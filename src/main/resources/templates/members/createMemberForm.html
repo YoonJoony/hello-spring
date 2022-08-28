@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<div classs="container"> <!-- 회원 등록 폼 html -->
+<!-- dvi - 웹 페이지를 구분하며 특정 데이터나 기능에 대한 섹션을 만들 수 있다.-->
+    <form action="/members/new" method="post"> <!-- action : 폼을 전송할 서버 쪽 스크립트 파일 지정 -->
+        <div class="form-group">
+            <label form="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요"> <!-- name에 저장된 값이 "/members/new" 로 POST 형식으로 데이터 전송됨  -->
+        </div>
+        <button type="submit">등록</button>
+    </form>
+
+</div> <!-- /container -->
+</body>
+</html>
