@@ -22,7 +22,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() { //테스트는 과감하게 한글로 바꿔도 됨
         //given 뭔가 주어 졌을 때
         Member member = new Member();
-        member.setName("spring4"); //객체 생성 후 Hello 이름 지정
+        member.setName("springg4asd"); //객체 생성 후 Hello 이름 지정
 
 
 
